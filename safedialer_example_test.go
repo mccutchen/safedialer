@@ -36,7 +36,7 @@ func Example() {
 	// ✅ 201 Created
 	//
 	// http://www.10.0.0.1.nip.io
-	// ❌ Get "http://www.10.0.0.1.nip.io": dial tcp 10.0.0.1:80: 10.0.0.1 is not a public IP address
+	// ❌ Get "http://www.10.0.0.1.nip.io": dial tcp 10.0.0.1:80: unsafe IP address
 }
 
 func printResponse(url string, resp *http.Response, err error) {
